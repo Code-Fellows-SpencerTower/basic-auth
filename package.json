@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^14.1.0",
+    "express": "^4.17.2",
+    "jest": "^27.4.7",
+    "pg": "^8.7.1",
+    "sqlite3": "^5.0.2",
+    "supertest": "^6.2.1"
+  },
+  "name": "basic-auth",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpencerTower/basic-auth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpencerTower/basic-auth/issues"
+  },
+  "homepage": "https://github.com/SpencerTower/basic-auth#readme"
+}
